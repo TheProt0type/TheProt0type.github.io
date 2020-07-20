@@ -1,0 +1,541 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #2e343c;
+}
+
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header hr{
+    color: #3b4963;
+    box-shadow: 0 0 10px #3b4963, 0 0 40px #3b4963, 0 0 80px #3b4963; 
+    width: 400px;
+}
+
+header h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*button happy-brth*/
+
+.a-btn a{
+    font-family: Agency FB V2, sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.a-btn a:hover{
+    color: #000000;
+    background: #62a3c4;
+    box-shadow: 0 0 10px #62a3c4, 0 0 40px #62a3c4, 0 0 80px #62a3c4;
+    transition-delay: 1s;
+}
+
+
+.a-btn a span{
+    position: absolute;
+    display: block;
+}
+
+.a-btn a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #62a3c4);
+}
+
+.a-btn a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+.a-btn a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #62a3c4);
+}
+
+.a-btn a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.a-btn a span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #62a3c4);
+}
+
+.a-btn a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.a-btn a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #62a3c4);
+}
+
+.a-btn a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+header, header:before{
+    background: 50% 50% / cover;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-image: url(../image/two.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+/*Добавить адаптацию с 100% - 300% маштабирования блока с юзером и текстом [19:21 28.06.20]*/
+/*https://soundcloud.com/graddi*/
+
+main{
+   
+}
+
+.info-block{
+    z-index: 3;
+    position: absolute;
+    top: 100vh;
+    background: #2e343c;
+    height: 1500px;
+    width: 100vw; /*на всю ширину*/
+/*  height: 200vh; /*на всю высоту*/ 
+}
+
+/*
+.info-block p{
+    font-family: Agency FB V2, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+*/
+
+.user-info-logo{
+    display: flex;
+    justify-content: center;
+}
+
+/*иконки для связи- контакты*/
+
+.social-block{
+    display: block;
+    height: 110px;
+    background-color: #3b4963;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one-block:hover{
+    background-color: #2e343c;
+}
+
+.telega{
+    width: 100px;
+    height: 100px;
+}
+
+.two-block:hover{
+    background-color: #2e343c;
+}
+
+.two-block img:hover{
+    background-color: #2e343c;
+}
+
+.inst{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
+
+/*фотка в контакт-блоке*/
+
+.photo-center{
+    position: absolute;
+    top: 30px;
+}
+
+.logo-one{
+    position: absolute;
+    right: 24px;
+    z-index: 1;
+}
+
+.logo-two{
+    position: absolute;
+    bottom: 2px;
+    right: 24px;
+    z-index: 1;
+}
+
+.photo-left{
+   position: absolute;
+   left: -260px;
+   top: 252px;
+}
+
+.photo-right{
+   position: absolute;
+   left: 260px;
+   top: 250px;
+}
+
+.logo-three{
+    position: absolute;
+    bottom: 31px;
+    right: 24px;
+    z-index: 1;
+}
+
+.logo-fou{
+    position: absolute;
+    bottom: 31px;
+    right: 24px;
+    z-index: 1;
+}
+
+.wall-one{
+    position: relative;
+    right: 10px;
+    width: 400px;
+    height: 500px;
+    bottom: 1px;
+}
+
+.wall-two{
+    position: relative;
+    right: 10px;
+    width: 400px;
+    height: 500px;
+    bottom: 1px;
+}
+
+.wall-three{
+    position: relative;
+    right: 10px;
+    width: 400px;
+    height: 500px;
+    bottom: 1px;
+}
+
+.three-block:hover{
+    background-color: #2e343c;
+}
+
+.three-block img:hover{
+    background-color: #2e343c;
+}
+
+.ds{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: 8px;
+    z-index: 3;
+}
+
+.fou-block:hover{
+    background-color: #2e343c;
+}
+
+.fou-block img:hover{
+    background-color: #2e343c;
+}
+
+.sound{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.nick-logo{
+    position: relative;
+    left: -10px;
+    top: 65px;
+    z-index: 3;
+}
+
+.nick-logo img{
+    position: relative;
+    z-index: 3;
+}
+
+.nick{
+    width: 700px;
+    height: 650px;
+}
+
+.text-block{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+
+.user-info-text{
+    position: absolute;
+    top: 980px;
+    margin-right: 10px;
+    background-color: #3b4963;
+
+    /*
+    border: 1px solid #ffff;
+    */
+
+    border-radius: 1px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+.uit-two{
+    background-color: #3b4963;
+    height: 1150px;
+}
+
+.user-info-text:hover{
+    
+}
+
+.user-info-text p{
+    font-family: Agency FB V2, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.abstract{
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.abstract img{
+   position: relative;
+}
+
+.abs{
+    border: 2px solid #2e343c;
+    height: 500px;
+    width: 500px;
+}
+
+.brth{
+   position: relative;
+   transform: rotate(-25deg);
+   bottom: 20px;
+   right: 410px;
+   height: 455px;
+   width: 390px;
+}
+
+.block-txt{
+    position: relative;
+    bottom: 530px;
+    left: 22%;
+}
+
+.block-txt p{
+    font-size: 21px;
+    font-family: Agency FB V2, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    color: #dbc7e7;
+}
+
+div[class*=box]{
+    height: 33.33%;
+    width: 100%; 
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+}
+
+.btn-one{
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.btn-one span{
+    transition: all 0.3s;
+}
+
+.btn-one a{
+    font-family: Agency FB V2, sans-serif;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.btn-one::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+    transform: scale(0.1, 1);
+}
+
+.btn-one:hover span{
+    letter-spacing: 2px;
+}
+
+.btn-one:hover::before{
+    opacity: 1; 
+    transform: scale(1, 1); 
+}
+
+.btn-one::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.btn-one:hover::after{
+    opacity: 0; 
+    transform: scale(0.1, 1);
+}
+
+.down-abs{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+
+
+.brth-2{
+    position: relative;
+    top: -450px;
+    left: 60px;
+    transform: rotate(5deg);
+    height: 400px;
+    width: 400px;
+}
+
+.text-two p{
+    position: relative;
+    top: 165px;
+    right: 50%;
+    font-size: 21px;
+    font-family: Agency FB V2, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    color: #dbc7e7;
+}
+
+footer{
+    position: relative;
+    background-image: url(../image/six.jpg);
+    background-size: cover;
+    height: 160px;
+    margin-top: -25px;
+    top: 2300px;
+    line-height: 30px;
+    text-align: center;
+    color: #dbc7e7;
+}
+
+footer p{
+    position: relative;
+    top: 60px;
+    font-family: Agency FB V2, sans-serif;
+    font-size: 20px;
+}

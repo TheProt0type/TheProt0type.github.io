@@ -1,0 +1,124 @@
+
+
+    @media (max-width: 767px) {
+    .abstract{
+      
+     }
+
+     .abs{
+        margin-left: 10px;
+     }
+
+     .brth{
+        position: absolute;
+        left: 360px;
+        bottom: 480px;
+     }
+
+     .block-txt{
+        margin-left: -50%;
+     }
+
+     .block-txt p{
+        font-size: 28px;
+        color: #cfa0e9;
+     }
+    }
+
+
+/*Видимость прогресса 140%*/    @media (min-width: 768px) and (max-width: 991px) {
+    .abstract{
+      
+     }
+
+     .abs{
+        margin-left: 160px;
+     }
+
+     .brth{
+        position: absolute;
+        left: 265px;
+        bottom: 480px;
+     }
+
+     .abstract p{
+        margin-top: 75px;
+     }
+
+     .block-txt{
+        margin-left: -50%;
+     }
+
+     .block-txt p{
+        font-size: 28px;
+        color: #cfa0e9;
+     }
+
+     .down-abs img{
+        position: relative;
+        right: 175px;
+     }
+
+     .text-two{
+        position: relative;
+        top: 350px;
+     }
+    }
+
+
+/*Телефонный формат 130%*/@media (min-width: 991px) and (max-width: 1199px) {
+    .info-block{
+        height: 180%;
+        background-color: #3b4963;
+    }
+
+     .abstract{
+      
+     }
+
+     .abs{
+        margin-left: 160px;
+     }
+
+     .brth{
+        position: absolute;
+        left: 265px;
+        bottom: 480px;
+     }
+
+     .abstract p{
+        margin-top: 95px;
+     }
+
+     .block-txt{
+        margin-left: -50%;
+     }
+
+     .block-txt p{
+        font-size: 28px;
+        color: #cfa0e9;
+     }
+
+     .down-abs img{
+        position: relative;
+        right: 140px;
+     }
+
+
+     .text-two{
+        position: relative;
+        top: 400px;
+        left: 670px;
+     }
+
+     footer{
+        position: relative;
+        top: 2300px;
+     }
+    }
+
+/*100%*/ @media (min-width: 1200px) { 
+     .abstract{
+
+  }
+    }

@@ -1,0 +1,33 @@
+@font-face {font-family: "Agency FB V2";
+  src: url("../font/@font-face/f9b9a4fce362a3a9111c138859ccb422.eot"); /* IE9*/
+  src: url("../font/@font-face/f9b9a4fce362a3a9111c138859ccb422.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/@font-face/f9b9a4fce362a3a9111c138859ccb422.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/@font-face/f9b9a4fce362a3a9111c138859ccb422.woff") format("woff"), /* chrome、firefox */
+  url("../font/@font-face/f9b9a4fce362a3a9111c138859ccb422.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/@font-face/f9b9a4fce362a3a9111c138859ccb422.svg#Agency FB V2") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Arcadia";
+  src: url("../font/@font-face-arcadia/982cead8d12b47966b4113fdd77dc0e1.eot"); /* IE9*/
+  src: url("../font/@font-face-arcadia/982cead8d12b47966b4113fdd77dc0e1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/@font-face-arcadia/982cead8d12b47966b4113fdd77dc0e1.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/@font-face-arcadia/982cead8d12b47966b4113fdd77dc0e1.woff") format("woff"), /* chrome、firefox */
+  url("../font/@font-face-arcadia/982cead8d12b47966b4113fdd77dc0e1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/@font-face-arcadia/982cead8d12b47966b4113fdd77dc0e1.svg#Arcadia") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Giddyup";
+  src: url("../font/@font-face-gid/6ef614fa6e5592af27a3a1f2e1a568fc.eot"); /* IE9*/
+  src: url("../font/@font-face-gid/6ef614fa6e5592af27a3a1f2e1a568fc.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/@font-face-gid/6ef614fa6e5592af27a3a1f2e1a568fc.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/@font-face-gid/6ef614fa6e5592af27a3a1f2e1a568fc.woff") format("woff"), /* chrome、firefox */
+  url("../font/@font-face-gid/6ef614fa6e5592af27a3a1f2e1a568fc.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/@font-face-gid/6ef614fa6e5592af27a3a1f2e1a568fc.svg#Giddyup") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Agency FB V2";
+  src: url("../font/@font-face agency-rus/f9b9a4fce362a3a9111c138859ccb422.eot"); /* IE9*/
+  src: url("../font/@font-face agency-rus/f9b9a4fce362a3a9111c138859ccb422.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/@font-face agency-rus/f9b9a4fce362a3a9111c138859ccb422.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/@font-face agency-rus/f9b9a4fce362a3a9111c138859ccb422.woff") format("woff"), /* chrome、firefox */
+  url("../font/@font-face agency-rus/f9b9a4fce362a3a9111c138859ccb422.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/@font-face agency-rus/f9b9a4fce362a3a9111c138859ccb422.svg#Agency FB V2") format("svg"); /* iOS 4.1- */
+}
